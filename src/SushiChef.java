@@ -11,6 +11,18 @@ public class SushiChef {
         this.hasFilling = hasFilling;
     }
 
+    public void makeSushi(){
+        //Checks if all ingredients are true
+        //if true, makes sushi, sets all to false with "useIngredients()"
+    }
+
+    public void useIngredients(){
+        setHasRice(false);
+        setHasNori(false);
+        setHasFilling(false);
+    }
+
+
     //Getters
     public boolean getHasRice() { return hasRice; }
     public boolean getHasNori() { return hasNori; }
